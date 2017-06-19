@@ -1,0 +1,123 @@
+{
+  "apps": [
+    {
+      "name": "INQUISITION",
+      "script": "./crawler/_launch_inquisition.js",
+
+      "max_restarts": 10,
+      "autorestart": true,
+      "exec_mode": "fork",
+
+      "max_memory_restart": "300M",
+      "watch": false,
+
+      "vizion": false,
+
+      "env": {
+        "NODE_ENV": "development",
+      }
+    },
+    {
+      "name": "MILAN_CITY",
+      "script": "./crawler/_launch_milan_city_crawler.js",
+
+      "max_restarts": 10,
+      "autorestart": true,
+      "exec_mode": "fork",
+
+      "max_memory_restart": "300M",
+      "watch": false,
+
+      "vizion": false,
+
+      "env": {
+        "NODE_ENV": "development",
+      }
+    },
+    {
+      "name": "MILAN_EXPO",
+      "script": "./crawler/_launch_milan_expo_crawler.js",
+
+      "max_restarts": 10,
+      "autorestart": true,
+      "exec_mode": "fork",
+
+      "max_memory_restart": "300M",
+      "watch": false,
+
+      "vizion": false,
+
+      "env": {
+        "NODE_ENV": "development",
+      }
+    },
+    {
+      "name": "GTE_1000",
+      "script": "./crawler/_launch_1000_checkins.js",
+
+      "max_restarts": 10,
+      "autorestart": true,
+      "exec_mode": "fork",
+
+      "max_memory_restart": "300M",
+      "watch": false,
+
+      "vizion": false,
+
+      "env": {
+        "NODE_ENV": "development",
+      }
+    },
+    {
+      "name": "AEROTRAIN",
+      "script": "./crawler/_launch_aerotrain_crawler.js",
+
+      "max_restarts": 10,
+      "autorestart": true,
+      "exec_mode": "fork",
+
+      "max_memory_restart": "300M",
+      "watch": false,
+
+      "vizion": false,
+
+      "env": {
+        "NODE_ENV": "development",
+      }
+    },
+    {
+      "name": "API",
+      "script": "./api/_launch_server_api.js",
+
+      "max_restarts": 10,
+      "autorestart": true,
+      "exec_mode": "fork",
+
+      "max_memory_restart": "300M",
+      "watch": false,
+
+      "vizion": false,
+
+      "env": {
+        "NODE_ENV": "development",
+      }
+    },
+    {
+      "name": "BUTLER",
+      "script": "./utils/_launch_butler.js",
+
+      "max_restarts": 10,
+      "autorestart": true,
+      "exec_mode": "fork",
+
+      "max_memory_restart": "300M",
+      "watch": false,
+
+      "vizion": false,
+
+      "env": {
+        "NODE_ENV": "development",
+      }
+    }
+  ]
+}

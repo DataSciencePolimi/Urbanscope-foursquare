@@ -1,0 +1,17 @@
+{
+  "name": "Urbanscope",
+  "description": "Urbanscope - Foursquare",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "async": "1.4.2",
+    "cron": "1.0.9",
+    "express": "4.13.3",
+    "fast-csv": "0.6.0",
+    "lodash": "^3.10.1",
+    "moment": "2.10.6",
+    "mongodb": "^2.2.26",
+    "node-foursquare": "0.3.0",
+    "turf": "2.0.2"
+  }
+}

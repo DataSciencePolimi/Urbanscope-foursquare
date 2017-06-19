@@ -1,0 +1,209 @@
+{
+	
+	"events": {
+		"id": "events",
+		"name": "Event, Arts & Entertainment",
+		"categories": [
+			{
+				"id": "4d4b7104d754a06370d81259", "name": "Arts & Entertainment",
+				"categories": [
+					{ "id": "4bf58dd8d48988d1e2931735", "name": "Art Gallery" },
+					{ "id": "4bf58dd8d48988d1f1931735", "name": "General Entertainment" },
+					{ "id": "4bf58dd8d48988d17f941735", "name": "Movie Theater" },
+					{ "id": "4bf58dd8d48988d181941735", "name": "Museum" },
+					{ "id": "4bf58dd8d48988d1e5931735", "name": "Music Venue" },
+					{ "id": "4bf58dd8d48988d1f2931735", "name": "Performing Arts Venue" },
+					{ "id": "4bf58dd8d48988d184941735", "name": "Stadium" }
+				]
+			},
+			{
+				"id": "4d4b7105d754a06373d81259", "name": "Event"
+			}
+		]
+	},
+
+	"food": {
+		"id": "food",
+		"name": "Food",
+		"categories": [
+			{
+				"id": "4d4b7105d754a06374d81259", "name": "Food"
+			},
+			{
+				"id": "4d4b7105d754a06378d81259", "name": "Shop & Service",
+				"categories": [
+					{ "id": "4bf58dd8d48988d1f9941735", "name": "Food & Drink Shop" }
+				]
+			}
+		]
+	},
+
+	"health": {
+		"id": "health",
+		"name": "Health & Fitness",
+		"categories": [
+			{
+				"id": "4d4b7105d754a06377d81259", "name": "Outdoors & Recreation",
+				"categories": [
+					{ "id": "4f4528bc4b90abdf24c9de85", "name": "Athletics & Sports" },
+					{ "id": "4bf58dd8d48988d15e941735", "name": "Pool" }
+				]
+			},
+			{
+				"id": "4d4b7105d754a06375d81259", "name": "Professional & Other Places",
+				"categories": [
+					{ "id": "4bf58dd8d48988d104941735", "name": "Medical Center" }
+				]
+			},
+			{
+				"id": "4d4b7105d754a06378d81259", "name": "Shop & Service",
+				"categories": [
+					{ "id": "4bf58dd8d48988d1ed941735", "name": "Spa" }
+				]
+			}
+		]
+	},
+
+	"hotel": {
+		"id": "hotel",
+		"name": "Hotel",
+		"categories": [
+			{
+				"id": "4d4b7105d754a06379d81259", "name": "Travel & Transport",
+				"categories": [
+					{ "id": "4bf58dd8d48988d1fa931735", "name": "Hotel" }
+				]
+			}
+		]
+	},
+
+	"meeting": {
+		"id": "meeting",
+		"name": "Meeting Place",
+		"categories": [
+			{
+				"id": "4d4b7105d754a06377d81259", "name": "Outdoors & Recreation",
+				"categories": [
+					{ "id": "4bf58dd8d48988d1df941735", "name": "Bridge" },
+					{ "id": "4bf58dd8d48988d164941735", "name": "Plaza" }
+				]
+			},
+			{
+				"id": "4d4b7105d754a06375d81259", "name": "Professional & Other Places",
+				"categories": [
+					{ "id": "4c38df4de52ce0d596b336e1", "name": "Parking" }
+				]
+			},
+			{
+				"id": "4d4b7105d754a06379d81259", "name": "Travel & Transport",
+				"categories": [
+					{ "id": "4bf58dd8d48988d1fe931735", "name": "Bus Station" },
+					{ "id": "4bf58dd8d48988d1fc931735", "name": "Light Rail Station" },
+					{ "id": "4bf58dd8d48988d1fd931735", "name": "Metro Station" },
+					{ "id": "4bf58dd8d48988d1f9931735", "name": "Road" },
+					{ "id": "4bf58dd8d48988d129951735", "name": "Train Station" }
+				]
+			}
+		]
+	},
+
+	"building": {
+		"id": "monuments",
+		"name": "Monuments & Building",
+		"categories": [
+			{
+				"id": "4d4b7104d754a06370d81259", "name": "Arts & Entertainment",
+				"categories": [
+					{ "id": "4deefb944765f83613cdba6e", "name": "Historic Site" }
+				]
+			},
+			{
+				"id": "4d4b7105d754a06377d81259", "name": "Outdoors & Recreation",
+				"categories": [
+					{ "id": "50aaa49e4b90af0d42d5de11", "name": "Castle" }
+				]
+			},
+			{
+				"id": "4d4b7105d754a06375d81259", "name": "Professional & Other Places",
+				"categories": [
+					{ "id": "4bf58dd8d48988d130941735", "name": "Building" },
+					{ "id": "4bf58dd8d48988d1ff931735", "name": "Convention Center" },
+					{ "id": "4bf58dd8d48988d171941735", "name": "Event Space" },
+					{ "id": "4bf58dd8d48988d126941735", "name": "Government Building" },
+					{ "id": "4bf58dd8d48988d131941735", "name": "Spiritual Center" }
+				]
+			}
+		]
+	},
+
+	"nature": {
+		"id": "nature",
+		"name": "Nature & Parks",
+		"categories": [
+			{
+				"id": "4d4b7105d754a06377d81259", "name": "Outdoors & Recreation",
+				"categories": [
+					{ "id": "56aa371be4b08b9a8d573547", "name": "Fountain" },
+					{ "id": "4bf58dd8d48988d15a941735", "name": "Garden" },
+					{ "id": "4bf58dd8d48988d1e0941735", "name": "Harbor / Marina" },
+					{ "id": "4bf58dd8d48988d162941735", "name": "Other Great Outdoors" },
+					{ "id": "4bf58dd8d48988d163941735", "name": "Park" },
+					{ "id": "52e81612bcbc57f1066b7a25", "name": "Pedestrian Plaza" },
+					{ "id": "4bf58dd8d48988d1e7941735", "name": "Playground" }
+				]
+			}
+		]
+	},
+
+	"neighborhood": {
+		"id": "neighborhood",
+		"name": "Neighborhood",
+		"categories": [
+			{
+				"id": "4d4b7105d754a06377d81259", "name": "Outdoors & Recreation",
+				"categories": [
+					{
+						"id": "530e33ccbcbc57f1066bbfe4", "name": "States & Municipalities",
+						"categories": [
+							{ "id": "4f2a25ac4b909258e854f55f", "name": "Neighborhood" }
+						]
+					}
+				]
+			}
+		]
+	},
+
+	"nightlife": {
+		"id": "nightlife",
+		"name": "Nightlife",
+		"categories": [
+			{
+				"id": "4d4b7105d754a06376d81259", "name": "Nightlife Spot"
+			},
+			{
+				"id": "4d4b7105d754a06375d81259", "name": "Professional & Other Places",
+				"categories": [
+					{ "id": "4bf58dd8d48988d14b941735", "name": "Winery" }
+				]
+			}
+		]
+	},
+
+	"store": {
+		"id": "store",
+		"name": "Store",
+		"categories": [
+			{
+				"id": "4d4b7105d754a06378d81259", "name": "Shop & Service",
+				"categories": [
+					{ "id": "4bf58dd8d48988d114951735", "name": "Bookstore" },
+					{ "id": "4bf58dd8d48988d103951735", "name": "Clothing Store" },
+					{ "id": "4bf58dd8d48988d1f6941735", "name": "Department Store" },
+					{ "id": "4bf58dd8d48988d122951735", "name": "Electronics Store" },
+					{ "id": "4bf58dd8d48988d1fd941735", "name": "Shopping Mall" }
+				]
+			}
+		]
+	}
+
+}
